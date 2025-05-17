@@ -1,0 +1,84 @@
+/* 
+  Name: [Your Name]
+  Favorite Food: Mediterranean
+  Favorite Hobby: Learning to play guitar
+*/
+
+/* 2. Background image for body */
+body {
+  background-image: url('CoolBackground.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* 3. Navigation bar styling */
+.navbar {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #ffffff;
+  text-shadow: 3px 3px 3px #000000;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+padding-left:20%;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* 5. Width for p1 and p2 */
+#p1, #p2 {
+  width: 50%;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* 6. Different text and background colors for p1 and p2 */
+#p1 {
+  background-color: #f0f8ff;
+  color: #00008b;
+}
+
+#p2 {
+  background-color: #ffe4e1;
+  color: #8b0000;
+}
+
+/* 8. Footer paragraph with background image */
+p.footer {
+  background-image: url('https://example.com/footer-background.jpg'); /* Replace with your image URL */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 20px;
+  color: #ffffff;
+}
+
+/* 9. Button class for "Policy" */
+.button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

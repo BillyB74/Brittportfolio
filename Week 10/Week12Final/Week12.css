@@ -1,0 +1,98 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0EBDF; /* Alabaster */
+    color: #363641; /* Onyx */
+}
+
+/* Header Styles */
+header {
+    background-color: #363641; /* Onyx */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #D4B29B; /* Dark Brown */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left-column, .right-sidebar {
+    width: 30%;
+}
+
+.center-column {
+    width: 40%;
+}
+
+/* Float the image in the center column */
+.floated-image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.sub-article {
+    margin-bottom: 20px;
+}
+
+/* Right Sidebar */
+.right-sidebar img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #363641; /* Onyx */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .left-column, .center-column, .right-sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

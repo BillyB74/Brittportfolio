@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Paul McCartney Fan Site</title>
+  <link rel="stylesheet" href="McCartney.css">
+</head>
+<body>
+  <header>
+    <h1>Paul McCartney</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Discography</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="grid-container">
+    <aside class="sidebar">
+      <ul>
+        <li><a href="#">Bio</a></li>
+        <li><a href="#">Tour</a></li>
+        <li><a href="#">Media</a></li>
+      </ul>
+    </aside>
+
+    <main class="main">
+      <img src="mainimage.png" alt="Paul McCartney" class="main-img" />
+      <section class="article">
+        <h2>About Paul</h2>
+        <p>Paul McCartney is a legendary British musician and songwriter known for his time with The Beatles and his incredible solo career.</p>
+      </section>
+      <section class="article">
+        <h2>Latest Album</h2>
+        <p>'McCartney III' showcases Paul's raw creativity and passion in a self-recorded studio masterpiece.</p>
+      </section>
+    </main>
+
+    <aside class="sidebar right">
+      <img src="image1.jpg" alt="Paul Live" />
+      <img src="image2.jpg" alt="Album Cover" />
+      <img src="image3.jpg" alt="Paul in Studio" />
+    </aside>
+  </div>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Paul McCartney Fan Site</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

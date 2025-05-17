@@ -1,0 +1,105 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #F5FAF1; /* Soft Beige */
+  color: #1D2B48; /* Deep Navy Blue */
+}
+
+/* Container for layout */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Header styling */
+header {
+  background-color: #1D2B48; /* Deep Navy Blue */
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+  padding: 20px 0;
+}
+
+.hero {
+  background-color: #AE8771; /* Warm Taupe */
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.bio, .latest-news {
+  margin-bottom: 20px;
+}
+
+.bio h3, .latest-news h3 {
+  font-size: 1.5rem;
+  color: #1D2B48; /* Deep Navy Blue */
+}
+
+.latest-news ul {
+  list-style: none;
+}
+
+.latest-news li {
+  margin: 10px 0;
+}
+
+.latest-news a {
+  color: #1D2B48; /* Deep Navy Blue */
+  text-decoration: none;
+}
+
+.latest-news a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+  background-color: #6A4A3C; /* Rich Coffee Brown */
+  color: white;
+  padding: 10px 0;
+  text-align: center;
